@@ -31,7 +31,7 @@ async function sendSMS(destination, message) {
     }
 }
 // host a webserver for voip.ms to send incoming SMS messages to
-// https://domain.com/sms?to={TO}&from={FROM}&message={MESSAGE}&files={MEDIA}&id={ID}&date={TIMESTAMP}?api_key={API_KEY}
+// https://example.com/sms?to={TO}&from={FROM}&message={MESSAGE}&files={MEDIA}&id={ID}&date={TIMESTAMP}?api_key={API_KEY}
 
 const express = require('express');
 const app = express();
