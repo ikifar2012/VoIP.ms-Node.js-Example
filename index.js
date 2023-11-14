@@ -53,13 +53,13 @@ app.get('/sms', (req, res) => {
     console.log(`Received SMS from ${from} to ${to}: ${message}`);
     // send a response
     sendSMS(from, 'Thanks for your message! you just said: "' + message + '", congratulations human!🎉');
-    // 
 });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
 
 // Example usage
+
 // sendSMS('5555555555', 'Hello, world!');
 
 
