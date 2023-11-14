@@ -30,7 +30,7 @@ async function sendSMS(destination, message) {
         console.log(error);
     }
 }
-// host a webserver for voip.ms to send incoming SMS messages to
+// host a webserver for VoIP.ms to send incoming SMS messages to
 // https://example.com/sms?to={TO}&from={FROM}&message={MESSAGE}&files={MEDIA}&id={ID}&date={TIMESTAMP}?api_key={API_KEY}
 
 const express = require('express');
