@@ -79,5 +79,3 @@ VoIP.ms will replace the query parameters with the appropriate values.
 
 ## Support
 If you found this project helpful, please consider using my [referral link](https://voip.ms/en/invite/Mzg1ODYz) to sign up for VoIP.ms. I will receive a small commission at no extra cost to you.
-
-## License
